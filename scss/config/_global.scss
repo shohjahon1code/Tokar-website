@@ -4,6 +4,11 @@
   box-sizing: border-box;
 }
 
+body {
+  overflow-x: hidden;
+  font-family: $main-font;
+}
+
 a {
   text-decoration: none;
 }
