@@ -1,0 +1,109 @@
+// all__section
+.all__section-3{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 145px;
+}
+// bg__color
+.bg__connect{
+    width: 370px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 30px rgba(43, 42, 40, 0.08);
+    border-radius: 8px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 48px;
+    padding-right: 48px;
+    margin-top: -120px;
+}
+// h3
+.bg__connect h3{
+    font-family: $main-font;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 36px;
+    color: #2B2A28;
+    margin-bottom: 12px;
+}
+// p
+.bg__connect p{
+    font-family: $main-font;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 28px;
+    color: #2B2A28;
+    width: 225px;
+    margin-bottom: 30px;
+}
+// button
+.button1{
+    background: linear-gradient(180deg, #F39C32 0%, #CB8734 100%);
+    box-shadow: 0px 4px 4px rgba(203, 135, 52, 0.2);
+    border-radius: 4px;
+    padding-top: 17px;
+    padding-bottom: 17px;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-family: $main-font;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 16px;
+    text-align: center;
+    color: #FFFFFF;
+}
+// hover
+button{
+    border: none;
+    cursor: pointer;
+}
+.button1:hover{
+    background: #fff;
+    border: 1.5px solid #CB8734;
+    color: #CB8734;
+}
+// h3
+.tel h3{
+    font-family: $main-font;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 36px;
+    color: #2B2A28;
+    margin-bottom: 26px;
+}
+// form
+.form{
+    position: relative;
+}
+// img
+.ukraina{
+    position: absolute;
+    top: 15px;
+    left: 20px;
+}
+// input
+input{
+    background: #FFFFFF;
+    border: 1px solid #E7D8C7;
+    border-radius: 4px;
+    padding-top: 19px;
+    padding-bottom: 19px;
+    padding-left: 80px;
+    padding-right: 241px;
+}
+// responsive
+@media only screen and (max-width:1035px){
+    .all__section-3{
+        flex-direction: column;
+        justify-content: center;
+    }
+    .form{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 100%;
+    }
+}
