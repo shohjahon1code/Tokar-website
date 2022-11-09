@@ -2,5 +2,7 @@
 @import "./config/variables";
 @import "./config/global";
 @import "./config/font";
-
-
+@import "../scss/sections/header";
+@import "../scss/sections/hero";
+@import "../scss/sections/home";
+@import "../scss/sections/connect";

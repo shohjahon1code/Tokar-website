@@ -1,0 +1,47 @@
+// all_section
+.all__section{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    gap: 30px;
+    margin-bottom: 40px;
+}
+// all-section-text
+.all__section-text{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+// button
+.button__all{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+// button style
+.button{
+    font-family: $main-font;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 16px;
+    color: #CB8734;
+}
+// p
+.all__section p{
+    font-family: $main-font;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 17px;
+    color: #828282;
+}
+// h4
+.all__section-text h4{
+    font-family: $main-font;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 58px;
+    color: #2B2A28;
+}
