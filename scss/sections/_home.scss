@@ -12,6 +12,11 @@
     gap: 13px;
 }
 // responsive
+@media only screen and (max-width:1215px){
+    .hero__img{
+        width: 100%;
+    }
+}
 @media only screen and (max-width:1210px){
     .img__hero{
         width: 100%;

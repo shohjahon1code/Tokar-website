@@ -45,3 +45,9 @@
     line-height: 58px;
     color: #2B2A28;
 }
+
+@media only screen and (max-width:335px){
+    .all__section-text h4{
+        line-height: 35px;
+    }
+}

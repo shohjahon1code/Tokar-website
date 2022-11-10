@@ -95,6 +95,24 @@ input{
     padding-right: 241px;
 }
 // responsive
+
+@media only screen and (max-width:1225px){
+    .all__section-3{
+        align-items: center;
+        gap: 50px;
+    }
+    .bg__connect{
+        margin-top: 0;
+    }
+}
+
+@media only screen and (max-width:1065px){
+    .button1{
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+}
+
 @media only screen and (max-width:1035px){
     .all__section-3{
         flex-direction: column;
@@ -105,5 +123,71 @@ input{
         flex-direction: column;
         justify-content: center;
         width: 100%;
+    }
+}
+
+@media only screen and (max-width:665px){
+    .button__all{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+        // width: 100%;
+    }
+    .form{
+        display: flex;
+        justify-content: center;
+    }
+    .tel h3{
+        text-align: center;
+    }
+    .ukraina{
+        left: 35px;
+    }
+}
+
+@media only screen and (max-width:515px){
+    input{
+        width: 100%;
+        padding-right: 0;
+    }
+    .ukraina{
+        left: 10px;
+    }
+}
+
+@media only screen and (max-width:435px){
+    .bg__connect{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .bg__connect h3{
+        text-align: center;
+    }
+     .bg__connect p{
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+     }
+}
+
+@media only screen and (max-width:395px){
+    .bg__connect{
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width:335px){
+    .bg__connect h3{
+        font-size: 20px;
+    }
+    .button1{
+        padding-right: 2px;
+        padding-left: 2px;
+    }
+    .button2{
+        padding-right: 20px;
+        padding-left: 20px;
     }
 }

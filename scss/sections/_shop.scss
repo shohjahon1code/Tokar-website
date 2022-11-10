@@ -1,0 +1,112 @@
+// bg-shop
+.bg__shop{
+    background: #FFFFFF;
+    box-shadow: 0px 0px 30px rgba(43, 42, 40, 0.08);
+    border-radius: 8px;
+    width: 100%;
+    padding-top: 40px;
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-bottom: 60px;
+}
+// box
+.box{
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    width: 413px;
+    border-top: 1px solid #E7D8C7;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+// nth child
+.box:nth-child(4){
+    border-bottom: 1px solid #E7D8C7;
+}
+// h2
+.bg__shop h2{
+    font-family: $main-font;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 58px;
+    color: #2B2A28;
+    margin-bottom: 31px;
+}
+// vector
+.all__shop-vector{
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+    gap: 15px;
+}
+// nth child
+.all__shop-vector:nth-child(5){
+    margin-bottom: 0;
+}
+// h3
+.barcelona h3{
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 36px;
+    color: #2B2A28;
+    margin-bottom: 12px;
+}
+// vector
+.vector__2{
+    display: flex;
+    align-items: center;
+    gap: 11px;
+}
+// nth child
+.vector__2:nth-child(2){
+    margin-bottom: 15px;
+}
+// all
+.al__barcelona-img{
+    display: flex;
+    gap: 30px;
+    margin-bottom: 40px;
+}
+// all2
+.all__box-shops{
+    display: flex;
+    gap: 30px;
+}
+// all
+.all_sections__box-item{
+    display: flex;
+    justify-content: space-between;
+    gap: 27px;
+    align-items: center;
+}
+// p
+.all__shop-vector p{
+    font-family: $main-font;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    color: #2B2A28;
+}
+// h3
+.barcelona h3{
+    font-family: $main-font;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 36px;
+    color: #2B2A28;
+    margin-bottom: 15px;
+}
+// span
+span{
+    font-family: $main-font;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22px;
+    color: #2B2A28;
+}
